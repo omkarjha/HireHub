@@ -1,39 +1,36 @@
-HireHub
+# HireHub  
 
-A comprehensive job-seeking and posting platform that connects job seekers with recruiters.
+*A comprehensive job-seeking and posting platform that connects job seekers with recruiters.*  
 
-Features
+## Features  
 
-For Job Seekers
+### For Job Seekers  
+- Account creation and management  
+- Apply to jobs  
+- Profile customization  
+- Resume upload and management  
 
-Account creation and management
-Apply to jobs
-Profile customization
-Resume upload and management
+### For Recruiters  
+- Company registration and profile management  
+- Job posting creation and management  
+- Access to applicant details (name, phone, resume)  
+- Applicant tracking and management  
 
-For Recruiters
+## Tech Stack  
+- **Frontend:** React.js, Tailwind CSS  
+- **Backend:** Node.js, Express.js  
+- **Database:** MongoDB  
+- **Cloud Storage:** Cloudinary  
 
-Company registration and profile management
-Job posting creation and management
-Access to applicant details (name, phone, resume)
-Applicant tracking and management
+## Contributing  
 
-Tech Stack
+To contribute:  
+- Fork the repository  
+- Create a feature branch  
+- Commit your changes  
+- Push to the branch  
+- Create a new Pull Request  
 
-Frontend: React.js, Tailwind CSS
-Backend: Node.js, Express.js
-Database: MongoDB
-Cloud Storage: Cloudinary
+## Contact  
 
-
-Fork the repository
-
-Create your feature branch (git checkout -b feature-branch)
-Commit your changes (git commit -m 'Add new feature')
-Push to the branch (git push origin feature-branch)
-Create a new Pull Request
-
-Contact
-
-For any inquiries, reach out at jhaomkar396@gmail.com
-
+For any inquiries, reach out at 📧 **[jhaomkar396@gmail.com](mailto:jhaomkar396@gmail.com)**  
