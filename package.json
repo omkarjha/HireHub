@@ -1,18 +1,19 @@
 {
-    "name": "jobportal",
+    "name": "hirehub",
     "version": "1.0.0",
-    "private": true,
-    "workspaces": ["frontend", "backend"],
     "scripts": {
-      "install:all": "npm install --workspaces",
-      "start:frontend": "npm --prefix frontend run dev",
-      "start:backend": "npm --prefix backend run dev",
-      "build:frontend": "npm --prefix frontend run build",
-      "deploy": "npm run build:frontend"
+      "dev": "concurrently \"npm run dev:frontend\" \"npm run dev:backend\"",
+      "dev:frontend": "cd frontend && npm run dev",
+      "dev:backend": "cd backend && npm run dev",
+      "build": "npm run build:frontend && npm run build:backend",
+      "build:frontend": "cd frontend && npm run build",
+      "build:backend": "cd backend && npm run build",
+      "start": "npm run start:frontend && npm run start:backend",
+      "start:frontend": "cd frontend && npm run start",
+      "start:backend": "cd backend && npm run start"
     },
-    "engines": {
-      "node": ">=18.0.0",
-      "npm": ">=8.0.0"
+    "dependencies": {
+      "concurrently": "^7.0.0"
     }
   }
   
